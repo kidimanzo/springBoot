@@ -1,0 +1,14 @@
+[Unit]
+Description=Siegfried server
+After=network.target
+After=syslog.target
+
+[Service]
+Type=simple
+
+ExecStart=/siegfried/launch.sh
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

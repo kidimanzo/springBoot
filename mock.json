@@ -1,0 +1,31 @@
+{
+  "siegfried": "1.7.2",
+  "scandate": "2017-05-07T12:54:27Z",
+  "signature": "default.sig",
+  "created": "2017-04-04T20:13:09+10:00",
+  "identifiers": [
+    {
+      "name": "pronom",
+      "details": "DROID_SignatureFile_V90.xml; container-signature-20170330.xml"
+    }
+  ],
+  "files": [
+    {
+      "filename": "OK_USAGE_1_BM.zip",
+      "filesize": 2460,
+      "modified": "",
+      "errors": "",
+      "matches": [
+        {
+          "ns": "pronom",
+          "id": "x-fmt/263",
+          "format": "ZIP Format",
+          "version": "",
+          "mime": "application/zip",
+          "basis": "extension match zip; container match with trigger and default extension",
+          "warning": ""
+        }
+      ]
+    }
+  ]
+}
